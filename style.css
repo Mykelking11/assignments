@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+  
+.hero {
+  height:100vh
+  width: 100%;
+  
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 20px;
+  background-color: #35424a;
+  border-bottom: 5px solid #e8491d ;
+  
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span{
+  color: #f9004d;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a{ 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color: #f9004d;  
+  transition: .4s;
+  
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+  
+h1{
+  color: black;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+/*   h2 ul li{
+    line-spacing: 20px;
+    padding: 10px;
+  } */
+
+h3 {
+    color: black;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+h4{
+  color:#f9004d;;
+  letter-spacing: 2px;
+  font-size:20px;
+}
+
+.newslatter form{
+  width: 380px;
+  max-width: 100%
+  position: relative;
+  }
+
+.newslatter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding:14px 130px 14px 15px;
+  border: 2px solid #f9004d;
+  outline: none;
+  border-radius: 30px;
+}
+
+.newslatter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #8585845;
+  top: 235px;
+  right: 90px;
+ }
+
+.footer{
+  text-align: center;
+  background-color:#35424a;
+  color: white;
+  padding: 8px;
+}
+.page {
+/*   padding: 5px, 10px; */
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+.profile-pic {
+  float: left;
+  margin: 5px;
+  width: 160px;
+
+.service-pic {
+  float: left;
+  margin: 5px;
+  width: 20px
+
+  .cont {
+  padding: 5px 10px;
+  width: 70%;
+  margin: auto;
+  }
+  .about {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+  }
